@@ -16,6 +16,7 @@ int main(void)
 		putchar(digit + 48);
 	digit++;
 }
+putchar('\n')
 
 return (0);
 }
