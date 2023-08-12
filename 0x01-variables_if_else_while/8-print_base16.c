@@ -9,13 +9,16 @@
 */
 int main(void)
 {
-	int digit = 0;
+	int digit = 48;
 
-	while (digit <= 15)
+	while (digit <= 102)
 	{
-		printf("%d", digit);
-	digit++;
+		putchar(digit);
+
+		if (digit == 57)
+			digit += 39;
+		digit++;
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
