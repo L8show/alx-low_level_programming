@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - Entery point
  *
  * Description : :D
  *
- * Return : 0 (success)
+ * Return: always 0 (success)
 */
 int main(void)
 {
