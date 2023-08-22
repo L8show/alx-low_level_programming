@@ -2,11 +2,8 @@
 
 /**
  * swap_int - asdkladk
- *
  * @a: asdlddddd
  * @b: asdlkasd
- *
- * Description: akldaksdkd
 */
 void swap_int(int *a, int *b)
 {
@@ -14,6 +11,6 @@ void swap_int(int *a, int *b)
 
 	temp = *a;
 	*a = *b;
-	temp = *b;
+	b* = temp;
 
 }
