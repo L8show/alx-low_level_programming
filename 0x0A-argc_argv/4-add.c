@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 
 			sum += str_to_int;
 		}
-						
+
 		/*Condition if one of the number contains symbols that are not digits*/
 
 		else
