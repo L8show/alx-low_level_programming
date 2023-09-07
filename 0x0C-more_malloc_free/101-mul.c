@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 #define ERR_MSG "Error"
 
 /**
@@ -34,6 +33,7 @@ int _strlen(char *s)
 	int i = 0;
 
 	while (s[i] != '\0')
+
 	{
 		i++;
 	}
@@ -85,7 +85,6 @@ int main(int argc, char *argv[])
 		}
 		if (carry > 0)
 			result[len1 + len2 + 1] += carry;
-
 	}
 	for (i = 0; i < len - 1; i++)
 	{
